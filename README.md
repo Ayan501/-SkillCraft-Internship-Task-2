@@ -1,28 +1,29 @@
-# 🏦 Task 2: Bank Marketing Campaign Analysis
+# 🚢 Task 2: Titanic Survival Prediction
 
 ## 📌 Objective
-To analyze a bank’s marketing campaign dataset and build a predictive model for term deposit subscription.
+To analyze the Titanic dataset and build a machine learning model that predicts whether a passenger survived the disaster based on personal and travel information.
 
 ## 🛠️ Steps Performed
-1. Data preprocessing (handling categorical & numerical variables)  
-2. Normalization of numerical data  
-3. Balancing dataset using SMOTE  
-4. Applied ML pipeline for prediction  
-5. Evaluation using accuracy, precision, recall, and F1-score  
+1. **Data Cleaning** – handled missing values (Age, Cabin, Embarked)  
+2. **Feature Engineering** – converted categorical variables (Sex, Embarked, Pclass) into numeric  
+3. **Exploratory Data Analysis (EDA)** – studied survival patterns across gender, age, class, etc.  
+ 
 
 ## 📈 Visualizations
-- Class distribution before/after SMOTE  
-- Feature importance plots  
-- Confusion matrix  
+- Survival rate by **Gender** (bar chart)  
+- Survival rate by **Passenger Class (Pclass)**  
+- Age distribution of survivors vs non-survivors  
+- Heatmap for feature correlations  
 
 ## 🧰 Tech Stack
 - Python  
 - Pandas, NumPy  
-- Scikit-learn, Imbalanced-learn  
+- Scikit-learn  
 - Matplotlib, Seaborn  
 
 ## 🚀 Outcome
-- Achieved a balanced dataset with improved model performance  
-- Identified key factors influencing term deposit subscription  
+- Found that **women and children had higher survival rates**  
+- **Passenger class and age** played a significant role in survival probability  
+- Achieved a reliable model for survival prediction  
 
 ---
